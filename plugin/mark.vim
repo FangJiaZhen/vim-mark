@@ -329,16 +329,16 @@ if !hasmapto('<Plug>MarkClear', 'n')
 	nmap <unique> <Leader>n <Plug>MarkAllClear
 endif
 
-if !hasmapto('<Plug>MarkSearchCurrentNext', 'n')
-	nmap <unique> <C-N> <Plug>MarkSearchCurrentNext
-endif
-if !hasmapto('<Plug>MarkSearchCurrentPrev', 'n')
-	nmap <unique> <C-P> <Plug>MarkSearchCurrentPrev
-endif
-if !hasmapto('<Plug>MarkSearchAnyNext', 'n')
-	nmap <unique> <Leader>/ <Plug>MarkSearchAnyNext
-endif
-
+" //;2015-08-27 06:34:42 FelixFang+
+" if !hasmapto('<Plug>MarkSearchCurrentNext', 'n')
+"     nmap <unique> <C-N> <Plug>MarkSearchCurrentNext
+" endif
+" if !hasmapto('<Plug>MarkSearchCurrentPrev', 'n')
+"     nmap <unique> <C-P> <Plug>MarkSearchCurrentPrev
+" endif
+" if !hasmapto('<Plug>MarkSearchAnyNext', 'n')
+"     nmap <unique> <Leader>/ <Plug>MarkSearchAnyNext
+" endif
 
 "- commands -------------------------------------------------------------------
 
